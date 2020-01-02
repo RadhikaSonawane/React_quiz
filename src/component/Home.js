@@ -6,7 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcomes to Quiz Game!</h1>
+        <h1>Welcome to My Quiz Game!</h1>
         <br />
 
         <Link to="/instruction">
