@@ -1,11 +1,14 @@
+//for creatinf component
 import React, { Component } from "react";
+//for styling the component
 import "../App.css";
+//for route to another page
 import { Link } from "react-router-dom";
 
-
+//creating class component
 class App extends Component {
   state = {
-      // Quiz instructions 
+       //state for showing all the instructions 
     ins: [
       "Threre will be total ten questions in the test.",
       "Questions will be repeating after one by one.",
@@ -21,11 +24,18 @@ class App extends Component {
       "+10secs gives ten extra seconds for current question"
     ]
   };
+  //render method is used to rendering the data on page
   render() {
+      //this data will be rendered on the page
     return (
       <div className="App2">
         <h1>Instructions!</h1>
         <br />
+
+         {/*
+          mapping all the instructions on the instruction page by using map method in instrucions
+          satate.
+        */}
         {this.state.ins.map((data, i) => (
           <p
             style={{
@@ -38,6 +48,9 @@ class App extends Component {
             {i + 1}. {data}
           </p>
         ))}
+        {/*
+          clicking on begin test button this will redirect us to questions page
+        */}
         <Link to="/questions">
           <button className="btn btn-primary btn-lg">Let's Start the quiz</button>
         </Link>
@@ -49,4 +62,5 @@ class App extends Component {
   }
 }
 
+//exorted so we can use this in different file
 export default App;

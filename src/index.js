@@ -1,13 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+//ReactDOM for rendering the component
+import ReactDOM from "react-dom";
+//importing main file of the task that is App.js
+import App from "./App";
+//using bootstrap
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+//rendering App component to root id elemt of main html file
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
