@@ -246,7 +246,7 @@ class Question extends Component {
               },
               () => {
                 //if remaining time is equal to 0 then next button will automatically clicked
-                if (this.state.timeRem === 0) {
+                if (this.state.timeRem == 0) {
                   this.nextHandler();
                 }
               }
@@ -278,7 +278,7 @@ class Question extends Component {
     //this is getting correct ans of displaying question from questions state aray
     let correctAns = this.state.questions[this.state.randomNumber].cans;
     //checking that selected option by user correct or not
-    if (userAns === correctAns) {
+    if (userAns == correctAns) {
       //if
       this.setState({
         correctAnsCount: this.state.correctAnsCount + 1

@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+  margin-top: 20%;
+}
+.App2 {
+  text-align: center;
+  margin-top: 2%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main-div {
+  background-image: url("./exam.jpg");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ins {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.begin-button {
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Questions {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+/* 
+.ButtonOne {
+  margin-left: 35%;
+  margin-top: 10%;
+} */
+
+.ButtonTwo {
+  margin-left: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Result {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.Time1 {
+  margin-left: 20%;
+  margin-top: 4%;
+}
+
+.Time2 {
+  margin-left: 10%;
+  /* margin-top: 4%; */
+}
+
+.lifeline {
+  margin-left: 35%;
+  margin-right: 23%;
+  margin-top: 5%;
+}
+
+.lifelabel {
+  margin-left: 20%;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
 }
