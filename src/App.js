@@ -1,22 +1,32 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from "react";
+//for routing
+import { BrowserRouter as Router, Route } from "react-router-dom";
+//for routing to home page we are importing Home.js file
 import Home from "./component/Home";
+//for routing to instructions page
 import Instructions from "./component/Instructions";
-import Questions from "./component/Question";
+//for routing to questions page
+import Questions from "./component/Questions";
+//for routing to result page
+import Result from "./component/Result";
 
-
+//creating functional component beacause there is no need of states
+//we are exporting this compent this component here itself
 export default function App() {
   return (
-<Router>
+    //router is useful for definf routing
+    <Router>
       <div>
-      <Route exact path="/" component={Home} />
-      <Route path="/instruction" component={Instructions} />
-      <Route path="/questions" component={Questions} />
-
-
-    </div>
-</Router>
+        {/* if path is exactly / then it will load Home.js page data
+          if path is /instruction then it will load Instruction.js page data
+          if path is /questions then it will load Questions.js page data
+          if path is /result then it will load Result.js page data 
+      */}
+        <Route exact path="/" component={Home} />
+        <Route path="/instruction" component={Instructions} />
+        <Route path="/questions" component={Questions} />
+        <Route path="/result" component={Result} />
+      </div>
+    </Router>
   );
 }
-

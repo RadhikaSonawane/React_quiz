@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 class App extends Component {
   state = {
+      // Quiz instructions 
     ins: [
       "Threre will be total ten questions in the test.",
       "Questions will be repeating after one by one.",
