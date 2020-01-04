@@ -10,12 +10,18 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome to My Quiz Game!</h1>
-        <br />
-        {/*this link will redirect you to the instructions page */}
-        <Link to="/instruction">
-          <button className="btn btn-primary btn-lg">Read Instructions</button>
-        </Link>
+        <div className="container">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 col-lg-12 form">
+          <h1>Welcome to My Quiz Game!</h1>
+          <br />
+          {/*this link will redirect you to the instructions page */}
+          <Link to="/instruction">
+            <button className="btn btn-danger btn-lg">Read Instructions</button>
+          </Link>
+          </div>
+          </div>
+        </div>
       </div>
     );
   }

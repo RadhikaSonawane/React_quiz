@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+//for giving styles to the component
 import "../App.css";
 
+//creating class component
 class Result extends Component {
   state = {
     correctAns: 0,
@@ -25,16 +27,15 @@ class Result extends Component {
   }
   render() {
     return (
+      <div className="form">
       <div className="row">
-        <div className="col-3"></div>
-        <div className="col-6">
-          <div className="App">
+        <div className="col-12">
             <h4>Your Result</h4>
             <table className="table">
               <thead className="thead-dark">
                 <tr>
-                  <th scope="col">Description</th>
-                  <th scope="col">Status</th>
+                  <th scope="col-lg-6 col-sm-6">Description</th>
+                  <th scope="col-lg-6 col-sm-6">Status</th>
                 </tr>
               </thead>
               <tbody>
@@ -68,9 +69,8 @@ class Result extends Component {
                 </tr>
               </tbody>
             </table>
-          </div>
         </div>
-        <div className="col-3"></div>
+      </div>
       </div>
     );
   }

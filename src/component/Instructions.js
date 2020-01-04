@@ -28,7 +28,7 @@ class App extends Component {
   render() {
       //this data will be rendered on the page
     return (
-      <div className="App2">
+      <div className="App2 form">
         <h1>Instructions!</h1>
         <br />
 
@@ -40,8 +40,7 @@ class App extends Component {
           <p
             style={{
               textAlign: "left",
-              marginLeft: "36%",
-              marginRight: "28%"
+              
             }}
             key={i}
           >
@@ -52,7 +51,7 @@ class App extends Component {
           clicking on begin test button this will redirect us to questions page
         */}
         <Link to="/questions">
-          <button className="btn btn-primary btn-lg">Let's Start the quiz</button>
+          <button className="btn btn-danger btn-lg">Let's Start the quiz</button>
         </Link>
         <br />
         <br />

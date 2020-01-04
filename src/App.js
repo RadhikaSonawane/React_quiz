@@ -16,16 +16,18 @@ export default function App() {
   return (
     //router is useful for definf routing
     <Router>
-      <div>
+      <div className="img">
         {/* if path is exactly / then it will load Home.js page data
           if path is /instruction then it will load Instruction.js page data
           if path is /questions then it will load Questions.js page data
           if path is /result then it will load Result.js page data 
       */}
-        <Route exact path="/" component={Home} />
-        <Route path="/instruction" component={Instructions} />
-        <Route path="/questions" component={Questions} />
-        <Route path="/result" component={Result} />
+        <div>
+          <Route exact path="/" component={Home} />
+          <Route path="/instruction" component={Instructions} />
+          <Route path="/questions" component={Questions} />
+          <Route path="/result" component={Result} />
+        </div>
       </div>
     </Router>
   );

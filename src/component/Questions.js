@@ -349,10 +349,10 @@ class Question extends Component {
       <React.Fragment>
         {this.state.quesCount <= 9 ? (
           <React.Fragment>
+            <div className="form">
             <div className="row">
-              <div className="col-4"></div>
-              <div className="col-8 ">
-                <h4 className="Time1">Time Left : {timeRem} Secs</h4>
+              <div className="col-12 ">
+                <h4 className="Time1 text-center">Time Left : {timeRem} Secs</h4>
               </div>
             </div>
             <div className="row">
@@ -400,7 +400,7 @@ class Question extends Component {
             <br />
             <div className="row">
               <div className="col-12">
-                <button className="btn btn-primary ButtonTwo" onClick={e => this.nextHandler(e)}>
+                <button className="btn btn-danger ButtonTwo" onClick={e => this.nextHandler(e)}>
                   Next
                 </button>
               </div>
@@ -409,18 +409,20 @@ class Question extends Component {
             <div className="row">
               <div className="lifeline">
                 <h3 className="lifelabel">Lifelines</h3>
-                <button className="btn btn-primary" id="lifeone" onClick={e => this.lifeHandler(e, "50/50")}>
+                <button className="btn btn-danger" id="lifeone" onClick={e => this.lifeHandler(e, "50/50")}>
                   50/50
                 </button>
                 &nbsp;&nbsp;
-                <button className="btn btn-primary" id="lifetwo" onClick={e => this.lifeHandler(e, "10sec")}>
+                <button className="btn btn-danger" id="lifetwo" onClick={e => this.lifeHandler(e, "10sec")}>
                   +10 Secs
                 </button>
               </div>
             </div>
+            </div>
           </React.Fragment>
         ) : (
           <React.Fragment>
+            <div className="form">
             <div className="row">
               <div className="col-12">
                 <div className="Result">
@@ -431,12 +433,13 @@ class Question extends Component {
                       pathname: "/result"
                     }}
                   >
-                    <button className="btn btn-primary" onClick={this.resultHandler}>
+                    <button className="btn btn-danger" onClick={this.resultHandler}>
                       Get Your Result
                     </button>
                   </Link>
                 </div>
               </div>
+            </div>
             </div>
           </React.Fragment>
         )}
