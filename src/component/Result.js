@@ -30,7 +30,7 @@ class Result extends Component {
       <div className="form">
       <div className="row">
         <div className="col-12">
-            <h4>Your Result</h4>
+            <h4 className="text-center">Your Result</h4>
             <table className="table">
               <thead className="thead-dark">
                 <tr>
