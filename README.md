@@ -47,7 +47,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### Home Page
 ![Image description](https://github.com/RadhikaSonawane/React_quiz/blob/master/src/img/HomePage.PNG)
 
-###Instructions
+### Instructions
 ![Image description](https://github.com/RadhikaSonawane/React_quiz/blob/master/src/img/Instructions.PNG)
 
 ### Quiz Questions
