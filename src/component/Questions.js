@@ -358,7 +358,7 @@ class Question extends Component {
             <div className="row">
               <div className="col-12">
                 <div className="Questions">
-                  <p>
+                  <p className="Que-bold">
                     <b>
                       Ques
                       {this.state.quesCount + 1}.
