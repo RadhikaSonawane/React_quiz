@@ -109,11 +109,7 @@ button:disabled {
     color: black;
     font-weight: bold;
   }
-  h1 {
-    font-family: 'Dancing Script', cursive;
-    -ms-text-size-adjust: 100%; 
-    -webkit-text-size-adjust: 100%; 
-  }
+  
   .img{
     padding:80px;
     background-image:url('./img/image.jpg');
