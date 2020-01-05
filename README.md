@@ -43,9 +43,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 12. +10secs gives ten extra seconds for current question
 
-### ScreenShots 
-## Home Page
-
+## ScreenShots 
+### Home Page
+![Image description](https://github.com/RadhikaSonawane/React_quiz/blob/master/src/img/HomePage.PNG)
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
