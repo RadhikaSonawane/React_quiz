@@ -19,9 +19,9 @@ class Question extends Component {
         ques: "Which of the following can't be done with client-side JavaScript?",
         ans: [
           "Validating a form",
-          "Sending a form's contents by email",
           "Storing the form's contents to a database file on the server",
-          "Storing the form's contents to a database file on the server"
+          "Sending a form's contents by email",
+          "None of the above"
         ],
         cans: 1
       },
@@ -52,13 +52,13 @@ class Question extends Component {
         ques: "What is the output of the following code snippet?eval(20*4)=?",
         ans: ["[1,2,3]", "204", "24", "80"],
         id: 4,
-        cans: 1
+        cans: 3
       },
       {
         ques: " What is the output of the following code snippet?var a = [1,2,3,4,5]; a.slice(0,3);",
         ans: ["NaN", "[4,5]", "[1,2,3,4]", "[1,2,3,4,5]"],
         id: 5,
-        cans: 0
+        cans: 2
       },
       {
         ques: 'What is the correct syntax for referring to an external script called "abc.js"?',
@@ -75,7 +75,7 @@ class Question extends Component {
           "dateObjectName Date([parameters])"
         ],
         id: 7,
-        cans: 1
+        cans: 0
       },
       {
         ques: "Which of the following is correct about features of JavaScript?",
@@ -95,11 +95,10 @@ class Question extends Component {
         cans: 2
       },
       {
-        ques:
-          "Which of the following function of Boolean object returns a string of either 'true' or 'false' depending upon the value of the object?",
+        ques:"Which of the following function of Boolean object returns a string of either 'true' or 'false' depending upon the value of the object?",
         ans: ["toSource()", "toString()", "valueOf()", "None of the above."],
         id: 10,
-        cans: 0
+        cans: 1
       },
       {
         ques: 'var city = new Array("delhi", "agra", "akot", "aligarh","palampur");console.log(city.shift());',
@@ -109,25 +108,22 @@ class Question extends Component {
         cans: 1
       },
       {
-        ques:
-          "Which of the following function of String object extracts a section of a string and returns a new string?",
+        ques:"Which of the following function of String object extracts a section of a string and returns a new string?",
         ans: ["slice()", "split()", "replace()", "search()"],
         id: 12,
+        cans: 0
+      },
+      {
+        ques:"Which of the following function of String object returns the calling string value converted to upper case?",
+        ans: [" toLocaleUpperCase()", "toUpperCase()", "toString()", "substring()"],
+        id: 13,
         cans: 1
       },
       {
-        ques:
-          "Which of the following function of String object returns the calling string value converted to upper case?",
-        ans: [" toLocaleUpperCase()", "toUpperCase()", "toString()", "substring()"],
-        id: 13,
-        cans: 2
-      },
-      {
-        ques:
-          "Which of the following function of String object creates an HTML hypertext link that requests another URL?",
+        ques:"Which of the following function of String object creates an HTML hypertext link that requests another URL?",
         ans: ["link()", "sub()", "sup()", "small()"],
         id: 14,
-        cans: 3
+        cans: 0
       }
     ],
     //randomNumber state will have radom number that will be generated on the click of next button
