@@ -17,6 +17,35 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### Quiz Instructions!
+
+1. Threre will be total ten questions in the test.
+
+2. Questions will be repeating after one by one.
+
+3. Each question contains total 4 options
+
+4. Out of those 4 options only one will be correct
+
+5. You will have 15 seconds to answer each question.
+
+6. The remaining time would be visible to you at the top-right
+
+7. When the time is up for a question, that question will be considered as unanswered
+
+8. You can move to next question by clicking on next button
+
+9. You can not go to back to previous question
+
+10. You will have two lifelines one is called 50/50 and another is called +10secs
+
+11. 50/50 removes two incorrect answers for current question
+
+12. +10secs gives ten extra seconds for current question
+
+### ScreenShots 
+## Home Page
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
