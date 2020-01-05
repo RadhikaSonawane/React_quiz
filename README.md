@@ -37,6 +37,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+### Quiz Instructions!
+
+1. Threre will be total ten questions in the test.
+
+2. Questions will be repeating after one by one.
+
+3. Each question contains total 4 options
+
+4. Out of those 4 options only one will be correct
+
+5. You will have 15 seconds to answer each question.
+
+6. The remaining time would be visible to you at the top-right
+
+7. When the time is up for a question, that question will be considered as unanswered
+
+8. You can move to next question by clicking on next button
+
+9. You can not go to back to previous question
+
+10. You will have two lifelines one is called 50/50 and another is called +10secs
+
+11. 50/50 removes two incorrect answers for current question
+
+12. +10secs gives ten extra seconds for current question
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
