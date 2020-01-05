@@ -46,6 +46,16 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## ScreenShots 
 ### Home Page
 ![Image description](https://github.com/RadhikaSonawane/React_quiz/blob/master/src/img/HomePage.PNG)
+
+###Instructions
+![Image description](https://github.com/RadhikaSonawane/React_quiz/blob/master/src/img/Instructions.PNG)
+
+### Quiz Questions
+![Image description](https://github.com/RadhikaSonawane/React_quiz/blob/master/src/img/QuizQue.PNG)
+
+### Result
+![Image description](https://github.com/RadhikaSonawane/React_quiz/blob/master/src/img/Result.PNG)
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
